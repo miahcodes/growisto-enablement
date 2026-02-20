@@ -1,262 +1,562 @@
-# Resources, Training & Certification Paths
+# Resources & Training Materials
 
 ## Introduction
 
-This document consolidates all learning resources, training materials, certification paths, and partner tools relevant to Shopify AI enablement for India enterprise merchants. Designed as a living reference for both Growisto teams and merchant staff, it covers official Shopify resources, third-party learning, community channels, and India-specific support.
+This document consolidates all resources, training materials, and learning paths for Growisto's teams and merchant partners implementing Shopify AI features. Use this as a reference hub for onboarding, ongoing education, and troubleshooting.
 
-## Shopify Official Resources
+## Official Shopify Resources
 
-### Shopify Academy
+### Documentation & Guides
 
-Shopify Academy provides free, structured courses directly from Shopify. Priority courses for AI enablement:
-
-| **Course** | **Duration** | **Audience** | **Relevance** |
-|-----------|-------------|-------------|---------------|
-| [Shopify Foundations](https://academy.shopify.com/) | 4 hours | All | Platform fundamentals |
-| [Shopify Plus Academy](https://academy.shopify.com/) | 6 hours | Merchant admins | Plus-specific features incl. AI |
-| [Shopify Flow Fundamentals](https://academy.shopify.com/) | 2 hours | Ops/Marketing | Automation workflows |
-| [Shopify Audiences & Marketing](https://academy.shopify.com/) | 3 hours | Marketing | AI-powered audience tools |
-| [Store Design & Themes](https://academy.shopify.com/) | 3 hours | Design/Dev | Theme customization for AI widgets |
-
-> **Tip**: Assign Academy courses during Week 2 of implementation. Merchant teams should complete Foundations + Plus Academy before hands-on training begins.
-
-### Shopify Help Center — AI Documentation
-
-| **Resource** | **URL** | **Covers** |
-|-------------|---------|------------|
-| Shopify Magic overview | https://help.shopify.com/en/manual/shopify-magic | All Magic features |
-| Sidekick documentation | https://help.shopify.com/en/manual/sidekick | Conversational AI assistant |
-| AI product descriptions | https://help.shopify.com/en/manual/products/ai-descriptions | Content generation |
-| Shopify Inbox AI | https://help.shopify.com/en/manual/inbox | Customer support AI |
-| Shopify Audiences | https://help.shopify.com/en/manual/audiences | AI-powered marketing |
-| Shopify Flow | https://help.shopify.com/en/manual/flow | Automation platform |
-| Search & Discovery | https://help.shopify.com/en/manual/online-store/search-and-discovery | AI search features |
-
-### Shopify Developer Resources
-
-| **Resource** | **URL** | **Audience** |
+| **Resource** | **URL** | **Use Case** |
 |-------------|---------|-------------|
-| Shopify Dev Docs | https://shopify.dev | Developers |
-| Storefront API (AI search) | https://shopify.dev/docs/api/storefront | Frontend developers |
-| Admin API | https://shopify.dev/docs/api/admin | Backend developers |
-| Shopify CLI | https://shopify.dev/docs/apps/tools/cli | App developers |
-| Shopify Functions | https://shopify.dev/docs/apps/functions | Custom logic |
-| GraphQL reference | https://shopify.dev/docs/api/admin-graphql | API consumers |
-| Hydrogen & Oxygen | https://shopify.dev/docs/custom-storefronts | Headless commerce |
+| Shopify Help Center | help.shopify.com | General platform documentation |
+| Shopify Plus Academy | academy.shopify.com | Structured learning for Plus merchants |
+| Shopify Dev Docs | shopify.dev | API references, theme development |
+| Shopify Changelog | changelog.shopify.com | New feature announcements |
+| Shopify Engineering Blog | shopify.engineering | Technical deep dives |
+| Shopify Partners Blog | shopify.com/partners/blog | Partner-focused updates |
 
-### Shopify Changelog & Updates
+### AI-Specific Documentation
 
-- **Shopify Editions**: https://www.shopify.com/editions — Biannual feature announcements (Summer & Winter)
-- **Shopify Engineering Blog**: https://shopify.engineering — Technical deep dives
-- **What's New**: https://www.shopify.com/blog/topics/whats-new — Feature launches and updates
-- **Shopify Status**: https://www.shopifystatus.com — Platform health monitoring
+| **Feature** | **Documentation** | **Key Topics** |
+|------------|-------------------|---------------|
+| Shopify Magic | Help Center > Shopify Magic | Content generation, image editing, SEO |
+| Sidekick | Help Center > Sidekick | Admin assistant, analytics queries |
+| Search & Discovery | Help Center > Search | Semantic search, filters, synonyms |
+| Product Recommendations | Help Center > Recommendations | Algorithm types, widget placement |
+| Shopify Audiences | Help Center > Audiences | Ad platform integration, audience types |
+| Unified Customer Profile | Help Center > Customers | Identity resolution, segmentation |
+| Shopify Flow | Help Center > Flow | Automation templates, custom workflows |
+| B2B Features | Help Center > B2B | Wholesale, pricing, company management |
+
+### Shopify Editions (Feature Launches)
+
+Shopify releases major feature updates twice a year at "Editions" events:
+- **Summer Edition** (typically June/July)
+- **Winter Edition** (typically January/February)
+
+Follow: editions.shopify.com for announcements
+
+## Training Curriculum
+
+### Track 1: Growisto Delivery Team Training
+
+**Module 1: Shopify AI Fundamentals (4 hours)**
+```
+Topics:
+1. Shopify's AI strategy and architecture (Doc 01)
+2. Overview of all AI features and their business impact
+3. How AI features interconnect (UCP → Personalization → Recommendations)
+4. Competitive positioning vs Salesforce/Adobe/WooCommerce
+
+Format: Self-paced reading + 1-hour team discussion
+Assessment: Quiz on feature capabilities and positioning
+```
+
+**Module 2: Technical Implementation (8 hours)**
+```
+Topics:
+1. UCP setup and configuration (Doc 03)
+2. Shopify Magic configuration and brand voice (Doc 06)
+3. Search & Discovery setup (Doc 04)
+4. Recommendation engine configuration (Doc 05)
+5. Shopify Flow automation (Doc 07)
+6. Integration patterns (APIs, webhooks, middleware)
+
+Format: Hands-on lab in Shopify Partner development store
+Assessment: Set up all AI features in a test store
+```
+
+**Module 3: Analytics & Optimization (4 hours)**
+```
+Topics:
+1. Setting up baseline metrics
+2. Search analytics interpretation
+3. Recommendation performance measurement
+4. A/B testing methodologies
+5. ROI calculation and reporting
+
+Format: Case study analysis + dashboard setup exercise
+Assessment: Create a performance report from sample data
+```
+
+**Module 4: India Market Specialization (4 hours)**
+```
+Topics:
+1. India enterprise use cases (Doc 09)
+2. Multilingual implementation best practices
+3. Festival commerce strategies
+4. Regional personalization patterns
+5. Payment and logistics considerations
+6. DPDP Act compliance for AI/data features
+
+Format: Case studies from Indian merchants + role-play exercises
+Assessment: Create an implementation plan for a sample Indian merchant
+```
+
+### Track 2: Merchant Team Training
+
+**Session 1: AI for Business Leaders (1 hour)**
+```
+Audience: CEO, CMO, COO, CTO
+Topics:
+- Why AI matters for your business (with industry benchmarks)
+- What Shopify AI can do (live demo)
+- Expected ROI timeline
+- What your team needs to do differently
+- Key metrics to watch
+
+Format: Presentation + live demo + Q&A
+Deliverable: Executive summary one-pager
+```
+
+**Session 2: Content Team Workshop (2 hours)**
+```
+Audience: Content managers, copywriters, SEO specialists
+Topics:
+- Shopify Magic hands-on tutorial
+- Product description generation workflow
+- SEO metadata generation and optimization
+- Multilingual content generation
+- Image editing with AI
+- Quality review process
+- When to use AI vs write manually
+
+Format: Hands-on workshop in merchant's Shopify Admin
+Deliverable: Content production SOP with AI integration
+```
+
+**Session 3: Marketing Team Workshop (2 hours)**
+```
+Audience: Marketing managers, email marketers, ad managers
+Topics:
+- Shopify Audiences setup and campaign creation
+- Email personalization with AI
+- Customer segmentation for campaigns
+- Recommendation-driven campaigns
+- A/B testing with AI variations
+- Measuring AI impact on marketing metrics
+
+Format: Hands-on workshop + campaign planning exercise
+Deliverable: Marketing playbook with AI-powered campaigns
+```
+
+**Session 4: Operations Team Workshop (2 hours)**
+```
+Audience: Store managers, operations team, customer service
+Topics:
+- Sidekick for daily operations
+- Common Sidekick queries for your store
+- Shopify Flow automations (monitoring, adjusting)
+- Customer profile usage for service
+- Inventory automation
+- Troubleshooting common issues
+
+Format: Hands-on workshop with real store scenarios
+Deliverable: Operations handbook with Sidekick query library
+```
+
+## Sidekick Query Library
+
+### Analytics Queries
+
+```
+"What were my top 10 best-selling products last month?"
+"Show me revenue by channel for this quarter"
+"What's my conversion rate trend for the last 90 days?"
+"Which products have the highest return rate?"
+"What are my top traffic sources this week?"
+"Show me customer acquisition cost by channel"
+"What's my average order value trend?"
+"Which customer segments are growing fastest?"
+"Show me sales by region for India"
+"What products are trending up in the last 7 days?"
+```
+
+### Product Management Queries
+
+```
+"Set all summer collection products to 20% off"
+"Which products are low in stock (less than 10 units)?"
+"Add the tag 'festive' to all products in the Diwali collection"
+"Show me products without descriptions"
+"Which products haven't sold in the last 60 days?"
+"Update the price of [product] to ₹2,999"
+"Create a collection of products tagged 'new-arrival'"
+"Which products have no images?"
+"Show me products with less than 3 reviews"
+"Unpublish all products with zero inventory"
+```
+
+### Customer Queries
+
+```
+"Show me customers who haven't ordered in 90 days"
+"Who are my top 20 customers by lifetime value?"
+"How many new customers did we acquire this month?"
+"Show me customers from Mumbai with 3+ orders"
+"What's the average order frequency for repeat customers?"
+"Show customers who abandoned cart this week"
+"Which customer segment has the highest AOV?"
+"How many customers used UPI payment last month?"
+"Show me VIP customers who haven't ordered recently"
+"What percentage of customers are repeat buyers?"
+```
+
+### Operations Queries
+
+```
+"How many orders are pending fulfillment?"
+"What's the average fulfillment time this week?"
+"Show me orders flagged for fraud review"
+"Which shipping zones have the most delays?"
+"How many returns were processed this month?"
+"What's our COD vs prepaid order ratio?"
+"Show me orders above ₹10,000 from today"
+"Which products were most returned this month?"
+"How many discount codes were used this week?"
+"Show me unfulfilled orders older than 48 hours"
+```
+
+## Shopify Flow Templates
+
+### Essential Automations for Indian Enterprise
+
+**Template 1: Low Stock Alert**
+```yaml
+Trigger: Inventory quantity changed
+Condition: Inventory quantity < 10
+Actions:
+  - Send internal email to operations team
+  - Add tag "low-stock" to product
+  - Remove from "Best Sellers" collection (prevent overselling)
+  - Send Slack notification to #inventory channel
+```
+
+**Template 2: VIP Customer Tagging**
+```yaml
+Trigger: Order created
+Condition: Customer total orders >= 5 OR Customer total spent >= ₹25,000
+Actions:
+  - Add tag "vip" to customer
+  - Add to "VIP Customers" segment
+  - Send internal notification to CRM team
+  - Trigger VIP welcome email sequence
+```
+
+**Template 3: High-Value Order Alert**
+```yaml
+Trigger: Order created
+Condition: Order total >= ₹15,000
+Actions:
+  - Send internal notification to sales team
+  - Add order tag "high-value"
+  - Priority fulfillment queue
+  - Send personalized thank you email
+```
+
+**Template 4: COD Risk Management**
+```yaml
+Trigger: Order created
+Condition: Payment method = COD AND Order total > ₹5,000
+Actions:
+  - Send verification SMS to customer
+  - Add tag "cod-verify" to order
+  - Hold fulfillment for 2 hours (awaiting confirmation)
+  - If no confirmation: Flag for manual review
+```
+
+**Template 5: Product Review Follow-Up**
+```yaml
+Trigger: Order fulfilled
+Condition: 7 days after fulfillment
+Actions:
+  - Wait 7 days
+  - Send review request email with product images
+  - Include 10% off next purchase incentive
+  - Add tag "review-requested" to order
+```
+
+**Template 6: Seasonal Collection Automation**
+```yaml
+Trigger: Scheduled (45 days before Diwali)
+Actions:
+  - Create "Diwali Collection" (if not exists)
+  - Auto-populate with products tagged "festive" or "ethnic"
+  - Feature on homepage
+  - Trigger email campaign to all customers
+  - Enable festival-specific discount codes
+```
+
+**Template 7: Win-Back Campaign Trigger**
+```yaml
+Trigger: Customer created (scheduled check every 7 days)
+Condition: Last order > 90 days ago AND Customer total orders >= 2
+Actions:
+  - Add to "Win-Back" segment
+  - Trigger win-back email sequence
+  - Generate personalized discount code (15% off)
+  - Add tag "win-back-eligible"
+```
+
+## Recommended Third-Party Tools
+
+### Analytics & Reporting
+
+| **Tool** | **Purpose** | **Integration** | **Pricing** |
+|---------|-----------|----------------|------------|
+| Google Analytics 4 | Web analytics | Native Shopify integration | Free |
+| Lifetimely | Customer LTV analytics | Shopify app | From $34/month |
+| Triple Whale | Attribution & analytics | Shopify app | From $100/month |
+| Polar Analytics | D2C analytics dashboard | Shopify app | From $300/month |
+
+### Email & Marketing
+
+| **Tool** | **Purpose** | **Integration** | **Pricing** |
+|---------|-----------|----------------|------------|
+| Klaviyo | Email/SMS marketing | Deep Shopify integration | Free up to 250 contacts |
+| Omnisend | Email/SMS/push | Shopify app | Free up to 250 contacts |
+| WebEngage | Customer engagement (India-focused) | API integration | Custom pricing |
+| MoEngage | Customer engagement (India-focused) | API integration | Custom pricing |
+
+### Customer Support
+
+| **Tool** | **Purpose** | **Integration** | **Pricing** |
+|---------|-----------|----------------|------------|
+| Gorgias | E-commerce helpdesk | Deep Shopify integration | From $10/month |
+| Freshdesk | Support ticketing | Shopify app | Free tier available |
+| Intercom | Live chat + AI bot | Shopify integration | From $39/month |
+| Yellow.ai | AI chatbot (India-focused) | API integration | Custom pricing |
+
+### Reviews & Social Proof
+
+| **Tool** | **Purpose** | **Integration** | **Pricing** |
+|---------|-----------|----------------|------------|
+| Judge.me | Product reviews | Shopify app | Free tier available |
+| Loox | Photo reviews | Shopify app | From $9.99/month |
+| Stamped.io | Reviews + loyalty | Shopify app | Free tier available |
+
+### India-Specific Tools
+
+| **Tool** | **Purpose** | **Integration** | **Pricing** |
+|---------|-----------|----------------|------------|
+| Razorpay | Payment gateway | Shopify integration | Per-transaction |
+| Shiprocket | Shipping aggregator | Shopify app | From ₹20/shipment |
+| Unicommerce | Order/inventory management | API integration | Custom pricing |
+| WhatsApp Business API | Customer communication | Via partners (Gupshup, Wati) | Per-message |
+| Clevertap | Customer analytics | API integration | Custom pricing |
+
+## Compliance & Legal Resources
+
+### DPDP Act (Digital Personal Data Protection Act, 2023)
+
+```
+Key requirements for AI features:
+
+1. Consent Management
+   - Explicit consent for data collection
+   - Clear purpose specification
+   - Easy withdrawal mechanism
+   
+2. Data Localization
+   - Certain data categories must stay in India
+   - Shopify's India data residency options
+   
+3. Customer Rights
+   - Right to access personal data
+   - Right to correction
+   - Right to erasure
+   
+4. AI Transparency
+   - Disclose when AI is used for personalization
+   - Allow opt-out of AI-driven recommendations
+   - Explain automated decision-making when asked
+
+Implementation:
+- Privacy policy template (AI-specific clauses)
+- Consent banner configuration
+- Data access request workflow
+- AI disclosure in terms of service
+```
+
+### E-commerce Regulations (India)
+
+```
+Key considerations:
+- Consumer Protection (E-Commerce) Rules, 2020
+- Legal Metrology (Packaged Commodities) Rules
+- GST compliance for digital goods
+- FDI regulations for marketplace vs inventory model
+- MRP display requirements
+
+Resources:
+- Ministry of Consumer Affairs guidelines
+- DPIIT e-commerce policy updates
+- Industry associations (NASSCOM, CII, FICCI)
+```
+
+## Certification & Learning Paths
+
+### Shopify Partner Academy
+
+```
+Recommended certifications:
+1. Shopify Foundations Certification (prerequisite)
+2. Shopify App Development Certification
+3. Shopify Theme Development Certification
+4. Shopify Plus Partner Certification (if available)
+
+Time investment: 4-8 hours per certification
+Value: Credibility with merchants, access to partner resources
+```
+
+### AI/ML Fundamentals (Optional but Recommended)
+
+```
+For team members wanting deeper AI understanding:
+
+1. Google AI Essentials (Coursera) - 10 hours
+   - AI fundamentals for business professionals
+   
+2. AI for Everyone (Andrew Ng, Coursera) - 6 hours
+   - Non-technical AI strategy course
+   
+3. Commerce AI Applications (various platforms) - 8 hours
+   - Recommendation systems basics
+   - Personalization strategies
+   - Search relevance optimization
+```
+
+## Community & Support
+
+### Shopify Community Resources
+
+| **Resource** | **URL** | **Best For** |
+|-------------|---------|-------------|
+| Shopify Community Forums | community.shopify.com | Peer support, best practices |
+| Shopify Partners Slack | Via partner dashboard | Real-time partner discussions |
+| Shopify Plus Facebook Group | Facebook Groups | Plus merchant networking |
+| r/shopify (Reddit) | reddit.com/r/shopify | Community troubleshooting |
+| Shopify Dev Discord | Via shopify.dev | Developer-focused discussions |
+
+### India-Specific Communities
+
+| **Resource** | **Platform** | **Focus** |
+|-------------|------------|----------|
+| D2C India | LinkedIn Group | Indian D2C ecosystem |
+| Shopify India Partners | WhatsApp Group | India partner network |
+| Indian E-commerce Leaders | LinkedIn Group | Enterprise e-commerce |
+| YourStory D2C | Media | Indian D2C news and analysis |
+| Inc42 E-commerce | Media | Indian startup/e-commerce coverage |
+
+### Growisto Internal Resources
+
+```
+Knowledge base: [Internal wiki/Notion link]
+Slack channels:
+  #shopify-ai — AI feature discussions
+  #client-implementations — Active project updates
+  #tech-support — Technical troubleshooting
+  #india-ecommerce — Market trends and insights
+
+Weekly sync: Friday AI feature review (30 min)
+Monthly: Client implementation retrospective
+Quarterly: AI roadmap review with Shopify partner team
+```
+
+## Quick Reference Cards
+
+### Shopify Magic Quick Reference
+
+```
+┌─────────────────────────────────────────────────┐
+│            SHOPIFY MAGIC QUICK REF              │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  PRODUCT DESCRIPTIONS                           │
+│  Admin > Products > [Product] > Description     │
+│  Click ✨ Magic icon > Select tone > Generate   │
+│                                                 │
+│  SEO METADATA                                   │
+│  Admin > Products > [Product] > SEO             │
+│  Click ✨ Magic icon > Generate title + desc    │
+│                                                 │
+│  EMAIL CONTENT                                  │
+│  Admin > Marketing > Campaigns > Create         │
+│  Click ✨ Magic icon > Generate subject + body  │
+│                                                 │
+│  IMAGE EDITING                                  │
+│  Admin > Products > [Product] > Images          │
+│  Click image > Edit > Remove background         │
+│                                                 │
+│  BLOG POSTS                                     │
+│  Admin > Blog Posts > Create                    │
+│  Click ✨ Magic icon > Generate from topic      │
+│                                                 │
+│  TIPS:                                          │
+│  • Set brand voice FIRST (Settings > Magic)     │
+│  • Review all AI content before publishing      │
+│  • Use "Regenerate" for alternative versions    │
+│  • Edit AI output to add brand-specific details │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+### Sidekick Quick Reference
+
+```
+┌─────────────────────────────────────────────────┐
+│            SIDEKICK QUICK REFERENCE             │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  ACCESS: Click Sidekick icon in Admin header    │
+│                                                 │
+│  ANALYTICS:                                     │
+│  "What were my sales today?"                    │
+│  "Top products this week"                       │
+│  "Compare this month to last month"             │
+│                                                 │
+│  PRODUCTS:                                      │
+│  "Set [product] to ₹X"                          │
+│  "Which products are out of stock?"             │
+│  "Add tag 'sale' to summer collection"          │
+│                                                 │
+│  CUSTOMERS:                                     │
+│  "How many new customers this month?"           │
+│  "Show VIP customers"                           │
+│  "Customers who haven't ordered in 90 days"     │
+│                                                 │
+│  ORDERS:                                        │
+│  "Pending orders today"                         │
+│  "Average order value this week"                │
+│  "Orders from Mumbai"                           │
+│                                                 │
+│  TIPS:                                          │
+│  • Be specific with time periods                │
+│  • Use natural language (no special syntax)     │
+│  • Ask follow-up questions for deeper insights  │
+│  • Sidekick remembers context within session    │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+## Key Takeaways
+
+1. **Invest in training**—AI tools are only as effective as the people using them. Budget 2 days for merchant team training.
+
+2. **Use official resources first**—Shopify's documentation is comprehensive and updated. Start there before third-party guides.
+
+3. **India-specific tooling matters**—payment, shipping, and communication tools built for India are essential complements to Shopify AI.
+
+4. **Compliance is non-negotiable**—DPDP Act compliance must be baked into every AI implementation from day one.
+
+5. **Community accelerates learning**—join Shopify and India D2C communities for real-world insights and troubleshooting.
+
+6. **Keep this document updated**—AI features evolve rapidly. Review and update resources quarterly.
 
 ---
 
-## Partner Resources
-
-### Shopify Partner Program
-
-| **Resource** | **Description** | **URL** |
-|-------------|----------------|---------|
-| Partner Dashboard | Central hub for partner operations | https://partners.shopify.com |
-| Partner Academy | Partner-specific training and certification | https://academy.shopify.com/partner |
-| Partner Blog | Strategy, case studies, partner news | https://www.shopify.com/partners/blog |
-| Partner Slack Community | Direct access to Shopify Partner team | Via Partner Dashboard invite |
-| Partner API | Development store management, app analytics | https://shopify.dev/docs/api/partner |
-
-### Shopify Plus Partner Resources
-
-As a Shopify Plus partner, Growisto has access to:
-
-- **Plus Partner Manager**: Dedicated Shopify contact for escalations and early access
-- **Plus Academy**: Advanced training on enterprise features
-- **Plus Merchant Success**: Co-selling and merchant support resources
-- **Beta Programs**: Early access to new AI features before GA
-- **Co-marketing**: Joint case studies, event sponsorship, content collaboration
-
-### Partner Certification Paths
-
-| **Certification** | **Focus** | **Prerequisites** | **Validity** |
-|-------------------|----------|-------------------|-------------|
-| **Shopify Partner Fundamentals** | Platform basics, partner program | None | 2 years |
-| **Shopify App Development** | Building Shopify apps | Basic dev knowledge | 2 years |
-| **Shopify Theme Development** | Liquid, theme architecture | HTML/CSS/JS | 2 years |
-| **Shopify Plus Certified** | Enterprise features, Plus-specific | Partner Fundamentals | 2 years |
-| **Shopify Solutions Architect** | Complex implementation planning | Plus Certified + experience | 2 years |
-
-> **Growisto Team Requirement**: All client-facing team members should hold at minimum Partner Fundamentals + Plus Certified. Dev team should additionally hold App or Theme Development certification.
-
----
-
-## Training Materials for Merchant Teams
-
-### Recommended Training Schedule
-
-Align with the 8-week implementation roadmap (see [Doc 10](10-implementation-roadmap.md)):
-
-| **Week** | **Training Topic** | **Format** | **Duration** | **Audience** |
-|----------|-------------------|------------|-------------|-------------|
-| 2 | Sidekick Basics | Live workshop | 90 min | All admin users |
-| 2 | Shopify Magic: Content Generation | Live workshop | 60 min | Content/marketing team |
-| 3 | AI Content Workflows | Hands-on lab | 120 min | Content team |
-| 4 | Search & Merchandising AI | Live demo | 60 min | Merchandising team |
-| 5 | Customer Intelligence & Segments | Workshop | 90 min | Marketing/analytics |
-| 6 | Shopify Audiences & Campaigns | Hands-on lab | 120 min | Marketing team |
-| 7 | Inbox AI & Support Automation | Workshop | 60 min | Customer service team |
-| 8 | Power User: Advanced Sidekick | Workshop | 90 min | Admin power users |
-
-### Training Delivery Format
-
-For each training session, Growisto delivers:
-
-1. **Pre-reading**: Relevant Shopify Help Center articles (sent 2 days before)
-2. **Live session**: Screen-share workshop with merchant's actual store
-3. **Recording**: Session recorded and shared via Google Drive / merchant LMS
-4. **Cheat sheet**: 1-page quick reference PDF for the feature covered
-5. **Practice exercises**: 3-5 hands-on tasks for the merchant team to complete independently
-6. **Office hours**: 30-minute open Q&A slot within 3 days of each session
-
-### Self-Service Training Resources
-
-Curated for merchant teams to access independently:
-
-#### Video Resources
-- **Shopify YouTube Channel**: https://www.youtube.com/@Shopify — Official tutorials and feature walkthroughs
-- **Shopify Plus YouTube**: https://www.youtube.com/@ShopifyPlus — Enterprise-focused content
-- **Learn with Shopify**: https://www.youtube.com/@LearnWithShopify — Step-by-step tutorials
-
-#### Community & Forums
-- **Shopify Community**: https://community.shopify.com — Merchant and partner forums
-- **Shopify Plus Facebook Group**: Peer network for Plus merchants
-- **r/shopify (Reddit)**: https://www.reddit.com/r/shopify — Community discussions
-- **Shopify India WhatsApp Groups**: Growisto can facilitate introductions to India-specific merchant communities
-
-#### Podcasts & Newsletters
-- **Shopify Masters Podcast**: Merchant success stories and strategies
-- **The Unofficial Shopify Podcast**: Technical deep dives and partner insights
-- **Shopify Partner Newsletter**: Monthly updates (subscribe via Partner Dashboard)
-
----
-
-## India-Specific Resources
-
-### India Commerce & D2C Ecosystem
-
-| **Resource** | **Description** | **URL** |
-|-------------|----------------|---------|
-| Shopify India | India-specific Shopify resources | https://www.shopify.com/in |
-| Shopify India Blog | Local merchant stories, India market insights | https://www.shopify.com/in/blog |
-| ONDC Integration | Open Network for Digital Commerce resources | https://ondc.org |
-| India D2C Collective | Community for India D2C brands | Various LinkedIn groups |
-| Inc42 D2C Reports | India D2C market data and analysis | https://inc42.com |
-
-### India Payment & Logistics Partners
-
-AI features often integrate with these India-specific services:
-
-| **Category** | **Partners** | **AI Integration Notes** |
-|-------------|-------------|-------------------------|
-| **Payments** | Razorpay, PayU, Cashfree, PhonePe | UPI data feeds into customer analytics |
-| **Logistics** | Shiprocket, Delhivery, Ecom Express | Delivery data for inventory forecasting AI |
-| **WhatsApp** | Gupshup, Wati, Interakt | AI-triggered messaging flows |
-| **Customer Data** | MoEngage, WebEngage, CleverTap | Complement Shopify's Unified Customer Profile |
-| **Reviews** | Judge.me, Loox, Rivyo | Review data for AI recommendations |
-
-### Regulatory & Compliance Resources
-
-- **DPDP Act 2023**: Data Protection and Digital Privacy Act — https://www.meity.gov.in
-- **BIS Standards**: Bureau of Indian Standards for product labeling — https://www.bis.gov.in
-- **FSSAI**: Food safety compliance for F&B merchants — https://www.fssai.gov.in
-- **RBI Guidelines**: Payment and refund regulations — https://www.rbi.org.in
-- **Consumer Protection (E-Commerce) Rules 2020**: Display requirements for online sellers
-
----
-
-## AI & Technology Learning Resources
-
-### General AI Literacy
-
-For merchant teams wanting deeper AI understanding:
-
-| **Resource** | **Type** | **Level** | **Duration** |
-|-------------|---------|-----------|-------------|
-| [Google AI Essentials](https://grow.google/ai-essentials/) | Course | Beginner | 10 hours |
-| [Elements of AI](https://www.elementsofai.com/) | Course | Beginner | 30 hours |
-| [ChatGPT Prompt Engineering (DeepLearning.AI)](https://www.deeplearning.ai/) | Course | Intermediate | 1 hour |
-| [AI for Everyone (Coursera/Andrew Ng)](https://www.coursera.org/learn/ai-for-everyone) | Course | Beginner | 6 hours |
-
-### E-Commerce AI Specific
-
-| **Resource** | **Type** | **Focus** |
-|-------------|---------|-----------|
-| [Google Merchant Center AI](https://merchants.google.com) | Documentation | AI for product feeds and shopping |
-| [Meta AI for Commerce](https://www.facebook.com/business/ai) | Documentation | AI-powered advertising |
-| [Shopify AI Research](https://shopify.engineering) | Blog | Technical AI implementations |
-
-### Developer-Specific Learning
-
-| **Resource** | **Type** | **Focus** |
-|-------------|---------|-----------|
-| [Shopify GraphQL Learning Kit](https://shopify.dev/docs/api/usage/graphql-basics) | Tutorial | API fundamentals |
-| [Liquid Template Language](https://shopify.dev/docs/api/liquid) | Documentation | Theme development |
-| [Shopify App Bridge](https://shopify.dev/docs/api/app-bridge) | Documentation | Embedded app development |
-| [Remix for Shopify Apps](https://shopify.dev/docs/apps/frameworks/remix) | Tutorial | Modern app development |
-
----
-
-## Tools & Software
-
-### Recommended Stack for AI-Enabled Shopify Stores
-
-| **Category** | **Tool** | **Purpose** | **Pricing** |
-|-------------|---------|------------|-------------|
-| **Analytics** | Shopify Analytics + Google Analytics 4 | Store performance tracking | Included / Free |
-| **SEO** | Ahrefs or SEMrush | AI content performance tracking | ₹8K-25K/month |
-| **Email** | Shopify Email or Klaviyo | AI-optimized email marketing | Included / ₹5K+/month |
-| **WhatsApp** | Gupshup or Wati | AI-triggered messaging | ₹5K-15K/month |
-| **Reviews** | Judge.me | Review collection for AI recommendations | Free-₹3K/month |
-| **Search** | Shopify Search & Discovery | AI search (native) | Included |
-| **Support** | Shopify Inbox | AI customer support | Included |
-| **Project Management** | Notion or Asana | Implementation tracking | Free-₹5K/month |
-
----
-
-## Staying Current
-
-### How to Track Shopify AI Updates
-
-1. **Shopify Editions** (biannual): Major feature announcements — bookmark https://www.shopify.com/editions
-2. **Shopify Changelog** (weekly): Incremental updates — subscribe via Partner Dashboard
-3. **Partner Slack**: Real-time discussions and early announcements
-4. **Shopify Unite / Commerce+**: Annual partner and developer conference
-5. **Growisto Internal Updates**: Growisto team will share curated AI updates relevant to active clients
-
-### Recommended Review Cadence
-
-| **Frequency** | **Activity** | **Owner** |
-|--------------|-------------|-----------|
-| Weekly | Check Shopify changelog for AI updates | Growisto Dev Lead |
-| Monthly | Review AI feature performance metrics | Growisto PM + Merchant |
-| Quarterly | Shopify Editions review and feature adoption planning | Growisto Strategy |
-| Biannually | Certification renewals and team training refresh | Growisto HR/Training |
-
----
-
-## Quick Reference: Key URLs
-
-| **What** | **URL** |
-|---------|---------|
-| Shopify Admin | https://admin.shopify.com |
-| Shopify Help Center | https://help.shopify.com |
-| Shopify Academy | https://academy.shopify.com |
-| Shopify Dev Docs | https://shopify.dev |
-| Partner Dashboard | https://partners.shopify.com |
-| Shopify Status | https://www.shopifystatus.com |
-| Shopify Community | https://community.shopify.com |
-| Shopify Editions | https://www.shopify.com/editions |
-| Shopify India | https://www.shopify.com/in |
-
----
-
-*Next: [Appendix →](12-appendix.md)*
+**Document Version**: 1.0
+**Last Updated**: February 2026
+**Prepared for**: Growisto Partner Enablement
