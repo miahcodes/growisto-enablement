@@ -54,14 +54,14 @@ Record current state:
 
 ## Week 1-2: Foundation & Quick Wins
 
-### Focus: Unified Customer Profile + Shopify Magic Content
+### Focus: Customer Data Platform + Shopify Magic Content
 
 #### Week 1
 
-**Day 1-2: UCP Activation**
+**Day 1-2: Customer Segmentation Setup**
 ```
 Tasks:
-1. Enable Unified Customer Profile in Shopify Admin
+1. Enable customer segmentation in Shopify Admin
 2. Configure identity resolution settings
 3. Connect existing data sources:
    - Online store (automatic)
@@ -133,7 +133,7 @@ Time: 6-8 hours
 ```
 
 ### Week 1-2 Deliverables
-- ✅ UCP activated and data flowing
+- ✅ Customer segmentation activated and data flowing
 - ✅ All product descriptions AI-generated and reviewed
 - ✅ SEO metadata for entire catalog
 - ✅ Multilingual content (2-3 languages)
@@ -146,7 +146,7 @@ Immediate improvements:
 - Product listing quality: +40% (better descriptions, SEO)
 - Content production speed: 5x faster
 - Organic search visibility: Improvement begins (full impact in 8-12 weeks)
-- Customer data: UCP building baseline profiles
+- Customer data: Shopify building baseline customer profiles and segments
 ```
 
 ## Week 3-4: Search & Discovery AI
@@ -368,7 +368,7 @@ Tasks:
    - Order sync
    - Customer data sync
 2. Connect CRM (if applicable):
-   - Customer data bidirectional sync with UCP
+   - Customer data bidirectional sync with Shopify customer data platform
    - Sales team access to customer profiles
 3. Connect marketing platforms:
    - Email (Klaviyo/Mailchimp) ↔ Shopify segments
@@ -539,7 +539,7 @@ Growisto involvement: 2-3 hours/week (strategic)
 Week 1-2: Foundation
 ├── Content production: 80% time reduction (immediate)
 ├── SEO: Metadata complete (impact in 8-12 weeks)
-└── UCP: Data collection begins
+└── Customer data: Segmentation begins
 
 Week 3-4: Search & Discovery
 ├── Search conversion: +30-50% (within 2 weeks)

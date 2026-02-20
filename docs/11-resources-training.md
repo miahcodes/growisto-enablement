@@ -26,7 +26,7 @@ This document consolidates all resources, training materials, and learning paths
 | Search & Discovery | Help Center > Search | Semantic search, filters, synonyms |
 | Product Recommendations | Help Center > Recommendations | Algorithm types, widget placement |
 | Shopify Audiences | Help Center > Audiences | Ad platform integration, audience types |
-| Unified Customer Profile | Help Center > Customers | Identity resolution, segmentation |
+| Customer Segmentation | Help Center > Customers | Identity resolution, segmentation |
 | Shopify Flow | Help Center > Flow | Automation templates, custom workflows |
 | B2B Features | Help Center > B2B | Wholesale, pricing, company management |
 
@@ -47,7 +47,7 @@ Follow: editions.shopify.com for announcements
 Topics:
 1. Shopify's AI strategy and architecture (Doc 01)
 2. Overview of all AI features and their business impact
-3. How AI features interconnect (UCP → Personalization → Recommendations)
+3. How AI features interconnect (Customer segmentation → Personalization → Recommendations)
 4. Competitive positioning vs Salesforce/Adobe/WooCommerce
 
 Format: Self-paced reading + 1-hour team discussion
@@ -57,7 +57,7 @@ Assessment: Quiz on feature capabilities and positioning
 **Module 2: Technical Implementation (8 hours)**
 ```
 Topics:
-1. UCP setup and configuration (Doc 03)
+1. Universal Commerce Protocol and agentic commerce enablement (Doc 03)
 2. Shopify Magic configuration and brand voice (Doc 06)
 3. Search & Discovery setup (Doc 04)
 4. Recommendation engine configuration (Doc 05)

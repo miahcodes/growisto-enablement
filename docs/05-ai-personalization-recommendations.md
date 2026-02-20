@@ -232,8 +232,8 @@ During peak festive periods (Diwali, Raksha Bandhan, Eid, Christmas):
 
 ## Integration with Other Shopify AI Features
 
-### Recommendations + Unified Customer Profile (Doc 03)
-- UCP's predictive LTV score influences recommendation aggressiveness — high-LTV customers see premium upsells, price-sensitive segments see value bundles
+### Recommendations + Customer Segmentation
+- Shopify's predictive LTV score influences recommendation aggressiveness — high-LTV customers see premium upsells, price-sensitive segments see value bundles
 - Churn risk signals trigger win-back recommendation emails with personalized product picks
 
 ### Recommendations + Semantic Search (Doc 04)
@@ -279,7 +279,7 @@ For most India enterprise merchants on Shopify Plus, start with native recommend
 1. **Shopify's recommendation engine works out of the box** — no ML expertise required, and the network effect gives it a cold-start advantage
 2. **Cross-sell and upsell are the fastest path to AOV growth** — Indian enterprise merchants typically see 10-25% AOV improvement
 3. **India-specific customization matters** — regional preferences, festive seasons, and category-specific bundling patterns should inform recommendation strategy
-4. **Combine with other Shopify AI features** for compounding impact — recommendations + UCP + search + Flow creates a self-reinforcing personalization loop
+4. **Combine with other Shopify AI features** for compounding impact — recommendations + customer segmentation + search + Flow creates a self-reinforcing personalization loop
 5. **Measure relentlessly** — recommendation-attributed revenue should be a KPI in every merchant review
 
 ---

@@ -8,7 +8,7 @@
 |----------|---------------|
 | **Shopify Magic** | Brand name for Shopify's AI-powered content generation features, including product descriptions, email copy, image editing, and SEO optimization. |
 | **Sidekick** | Conversational AI assistant embedded in Shopify Admin. Handles analytics queries, product management, and operational tasks via natural language. |
-| **Unified Customer Profile (UCP)** | Shopify's system for aggregating customer data from all touchpoints (online, POS, email, etc.) into a single identity-resolved profile with predictive analytics. |
+| **Universal Commerce Protocol (UCP)** | Open standard co-developed by Shopify and Google that enables AI agents to discover, negotiate with, and transact with merchants. Makes commerce programmable for agentic commerce. See Doc 03. |
 | **Shopify Audiences** | AI-powered feature that generates high-intent lookalike audiences for ad platforms using Shopify's network-wide commerce data. Available on Shopify Plus. |
 | **Shopify Flow** | Visual automation platform for creating trigger-condition-action workflows without code. Available on Shopify Plus and Advanced plans. |
 | **Shopify Plus** | Enterprise tier of Shopify, offering advanced features including Shopify Flow, Scripts, Launchpad, and dedicated support. Required for many AI features. |
@@ -30,11 +30,11 @@
 | **Content-Based Filtering** | Recommendation algorithm that suggests products similar to what a customer has already viewed or purchased, based on product attributes. |
 | **Natural Language Processing (NLP)** | AI technology that enables machines to understand, interpret, and generate human language. Powers Sidekick and semantic search. |
 | **Predictive Analytics** | Using historical data and AI to predict future outcomes (customer churn, purchase probability, lifetime value). |
-| **Identity Resolution** | Process of matching and merging customer data from multiple touchpoints into a single unified profile. Core UCP capability. |
+| **Identity Resolution** | Process of matching and merging customer data from multiple touchpoints into a single unified profile. Core capability of Shopify's customer data platform. |
 | **Lookalike Audience** | Ad targeting technique where AI finds new potential customers who resemble your existing best customers. |
 | **A/B Testing** | Comparing two versions of a page, email, or feature to determine which performs better. AI can automate variant selection. |
 | **Churn Prediction** | AI model that identifies customers likely to stop purchasing, enabling proactive retention campaigns. |
-| **Customer Lifetime Value (CLV/LTV)** | Predicted total revenue a customer will generate over their entire relationship with your brand. AI calculates this from UCP data. |
+| **Customer Lifetime Value (CLV/LTV)** | Predicted total revenue a customer will generate over their entire relationship with your brand. AI calculates this from customer data and purchase history. |
 | **Conversion Rate (CVR)** | Percentage of visitors who complete a desired action (purchase, add-to-cart, signup). |
 | **Average Order Value (AOV)** | Average amount spent per transaction. AI recommendations aim to increase this. |
 | **Return on Ad Spend (ROAS)** | Revenue generated per rupee spent on advertising. Shopify Audiences improves this. |
@@ -86,7 +86,7 @@ query {
 }
 ```
 
-#### Customers (UCP Data)
+#### Customers (Customer Data)
 
 ```graphql
 # Get customer profile with predictive data
@@ -236,7 +236,7 @@ query {
 ```json
 // Key webhooks to subscribe to:
 
-// Customer data changes (UCP updates)
+// Customer data changes (customer data updates)
 "customers/update"
 "customers/create"
 
@@ -294,7 +294,7 @@ query {
 ### General
 
 **Q: Do all Shopify AI features require Shopify Plus?**
-A: No. Shopify Magic (content generation) and basic search features are available on all plans. However, advanced features like Shopify Audiences, Flow, UCP predictive analytics, and advanced personalization require Shopify Plus or Advanced plans. For enterprise merchants, Plus is recommended.
+A: No. Shopify Magic (content generation) and basic search features are available on all plans. However, advanced features like Shopify Audiences, Flow, advanced customer analytics, and advanced personalization require Shopify Plus or Advanced plans. For enterprise merchants, Plus is recommended.
 
 **Q: How much does Shopify AI cost?**
 A: All AI features are included in the Shopify subscription at no additional cost. There are no per-query charges, API fees, or usage-based pricing for Magic, Sidekick, search, or recommendations. Shopify Audiences is included with Plus.
@@ -339,7 +339,7 @@ A: Shopify stores data globally with CDN edge nodes in India for performance. As
 |-----------|----------|---------|-------------------|
 | 01 | Shopify AI Overview | `01-shopify-ai-overview.md` | AI strategy, vision, competitive analysis, timeline |
 | 02 | Sidekick AI Assistant | `02-sidekick-ai-assistant.md` | Conversational AI, admin automation, analytics |
-| 03 | Unified Customer Profile | `03-unified-customer-profile.md` | Identity resolution, segmentation, predictive analytics |
+| 03 | Universal Commerce Protocol | `03-universal-commerce-protocol.md` | UCP open standard, agentic commerce, agent discovery, checkout protocol |
 | 04 | AI Merchandising & Search | `04-ai-merchandising-search.md` | Semantic search, visual search, smart collections |
 | 05 | AI Personalization & Recommendations | `05-ai-personalization-recommendations.md` | Recommendation algorithms, Audiences, personalization engine |
 | 06 | AI Content Generation | `06-ai-content-generation.md` | Shopify Magic, multilingual content, SEO, image editing |

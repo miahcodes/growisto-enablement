@@ -121,7 +121,7 @@ Annual impact: ₹4.8 crore additional revenue (₹12.8 crore vs ₹8 crore base
 
 **Example**:
 ```
-Customer Profile: Rohan (UCP data)
+Customer Profile: Rohan (customer data)
 - Previous purchases: Running shoes, gym wear, protein shaker
 - Browsing: Looked at yoga mats, resistance bands
 - Similar customers often buy: Fitness trackers, workout supplements
@@ -566,7 +566,7 @@ Customer in East India (Kolkata):
 ```
 
 **How AI learns this**:
-- UCP data: Purchase patterns by region
+- Customer data: Purchase patterns by region
 - Engagement data: Which products get clicked/added to cart by region
 - Return data: What gets returned (indicates poor fit for regional preference)
 - Shopify network data: Aggregate trends across Indian merchants

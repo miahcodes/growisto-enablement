@@ -853,7 +853,7 @@ To implement these AI use cases for your Indian merchant clients:
 - Historical data: 6-12 months minimum for AI forecasting
 
 ✅ **Shopify AI features enabled**:
-- Unified Customer Platform (UCP) for audience building
+- Shopify Audiences for customer segmentation and audience building
 - Magic AI for content generation (multilingual)
 - Shopify Inbox AI for customer service
 - AI-powered search and merchandising

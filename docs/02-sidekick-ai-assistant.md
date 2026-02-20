@@ -483,7 +483,7 @@ Create a library of effective queries for common scenarios:
 
 ---
 
-**Next**: Doc 03 explores Unified Customer Profile and how AI powers predictive customer analytics.
+**Next**: Doc 03 explores the Universal Commerce Protocol and how it enables AI agents to transact with merchants.
 
 **Document Version**: 1.0  
 **Last Updated**: February 2026  

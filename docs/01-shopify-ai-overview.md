@@ -34,7 +34,7 @@ Conversational AI assistant that lives in the Shopify Admin:
 #### 3. **Embedded AI Throughout the Ecosystem**
 AI capabilities woven into every part of the platform:
 - Search and discovery (semantic search)
-- Customer profiles and segmentation (Unified Customer Profile)
+- Customer profiles and segmentation (Shopify customer data platform)
 - Marketing automation (Shopify Audiences)
 - Customer service (Shopify Inbox)
 - Merchandising and recommendations
@@ -47,7 +47,7 @@ AI capabilities woven into every part of the platform:
 | **Product Management** | Auto-generated descriptions, SEO optimization | 10x faster product launches |
 | **Search** | Semantic search, visual search | 15-30% conversion lift |
 | **Marketing** | Shopify Audiences, email optimization | Lower CAC, higher ROAS |
-| **Customer Data** | Unified Customer Profile, predictive analytics | Personalization at scale |
+| **Customer Data** | Customer segmentation, predictive analytics | Personalization at scale |
 | **Customer Service** | Inbox AI, automated responses | 60% reduction in support costs |
 | **Content** | Shopify Magic for copy, images, blogs | Multilingual content at scale |
 
@@ -65,7 +65,7 @@ AI capabilities woven into every part of the platform:
 
 ### 3. **Multi-Channel Complexity**
 - **Challenge**: Unified customer experience across online, retail, social commerce
-- **AI Solution**: Unified Customer Profile aggregates data from all touchpoints
+- **AI Solution**: Shopify customer data platform aggregates data from all touchpoints
 - **Impact**: Single source of truth for customer behavior and preferences
 
 ### 4. **Market Speed & Agility**
@@ -91,7 +91,7 @@ AI capabilities woven into every part of the platform:
 ### 2024: Expansion & Enterprise Features
 **Q1 2024**
 - Sidekick general availability for Plus
-- Unified Customer Profile enhancements (predictive LTV, churn risk)
+- Customer segmentation enhancements (predictive LTV, churn risk)
 
 **Q2 2024**
 - Semantic search rollout to all Shopify stores
@@ -207,12 +207,12 @@ Amazon and Flipkart leverage massive AI/ML investments. Shopify AI levels the pl
 
 4. **Highlight India-specific advantages**: Multilingual content, festive agility, and cost efficiency resonate deeply with Indian enterprise decision-makers.
 
-5. **Combine AI capabilities**: The power isn't in individual features—it's in combining Sidekick + Magic + UCP + Audiences for compounding operational leverage.
+5. **Combine AI capabilities**: The power isn't in individual features—it's in combining Sidekick + Magic + customer segmentation + Audiences for compounding operational leverage.
 
 ## Next Steps
 
 - **Doc 02**: Deep dive into Sidekick AI Assistant capabilities and enterprise use cases
-- **Doc 03**: Unified Customer Profile and predictive analytics
+- **Doc 03**: Universal Commerce Protocol — enabling agentic commerce
 - **Doc 04**: AI-powered merchandising and search
 - **Doc 05**: Content generation with Shopify Magic
 - **Doc 06**: Customer service automation with AI
